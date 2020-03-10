@@ -1,0 +1,181 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - BottomPopup (0.6.0)
+  - CHIPageControl (0.2):
+    - CHIPageControl/Aji (= 0.2)
+    - CHIPageControl/Aleppo (= 0.2)
+    - CHIPageControl/Chimayo (= 0.2)
+    - CHIPageControl/Fresno (= 0.2)
+    - CHIPageControl/Jalapeno (= 0.2)
+    - CHIPageControl/Jaloro (= 0.2)
+    - CHIPageControl/Paprika (= 0.2)
+    - CHIPageControl/Puya (= 0.2)
+  - CHIPageControl/Aji (0.2)
+  - CHIPageControl/Aleppo (0.2)
+  - CHIPageControl/Chimayo (0.2)
+  - CHIPageControl/Fresno (0.2)
+  - CHIPageControl/Jalapeno (0.2)
+  - CHIPageControl/Jaloro (0.2)
+  - CHIPageControl/Paprika (0.2)
+  - CHIPageControl/Puya (0.2)
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - CryptoSwift (1.3.0)
+  - DAKeychain (1.1.0)
+  - ESTabBarController-swift (2.8.0)
+  - Fabric (1.10.2)
+  - Haptica (3.0.2)
+  - Hero (1.5.0)
+  - InitialsImageView (0.7.0)
+  - Kingfisher (5.13.1):
+    - Kingfisher/Core (= 5.13.1)
+  - Kingfisher/Core (5.13.1)
+  - LNPopupController (2.8.5)
+  - Localize-Swift (3.1.0)
+  - lottie-ios (3.1.6)
+  - Movin (1.2.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - ObjectMapper (3.5.1)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - PureLayout (3.1.5)
+  - Signals (6.1.0)
+  - SkyFloatingLabelTextField (3.8.0)
+  - SwifterSwift (4.6.0):
+    - SwifterSwift/AppKit (= 4.6.0)
+    - SwifterSwift/CoreGraphics (= 4.6.0)
+    - SwifterSwift/CoreLocation (= 4.6.0)
+    - SwifterSwift/Foundation (= 4.6.0)
+    - SwifterSwift/MapKit (= 4.6.0)
+    - SwifterSwift/SpriteKit (= 4.6.0)
+    - SwifterSwift/SwiftStdlib (= 4.6.0)
+    - SwifterSwift/UIKit (= 4.6.0)
+  - SwifterSwift/AppKit (4.6.0)
+  - SwifterSwift/CoreGraphics (4.6.0)
+  - SwifterSwift/CoreLocation (4.6.0)
+  - SwifterSwift/Foundation (4.6.0)
+  - SwifterSwift/MapKit (4.6.0)
+  - SwifterSwift/SpriteKit (4.6.0)
+  - SwifterSwift/SwiftStdlib (4.6.0)
+  - SwifterSwift/UIKit (4.6.0)
+  - SwiftMessages (6.0.2):
+    - SwiftMessages/App (= 6.0.2)
+  - SwiftMessages/App (6.0.2)
+  - SwiftRichString (3.7.1)
+  - SwiftyJSON (5.0.0)
+  - TagListView (1.4.0)
+  - TPKeyboardAvoiding (1.3.3)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AlamofireObjectMapper (~> 5.2)
+  - BottomPopup
+  - CHIPageControl
+  - Crashlytics
+  - CryptoSwift
+  - DAKeychain
+  - ESTabBarController-swift
+  - Fabric
+  - Haptica
+  - Hero
+  - InitialsImageView
+  - Kingfisher
+  - LNPopupController
+  - Localize-Swift
+  - lottie-ios
+  - Movin
+  - NVActivityIndicatorView
+  - ObjectMapper
+  - PromiseKit
+  - PureLayout
+  - Signals (~> 6.0)
+  - SkyFloatingLabelTextField
+  - SwifterSwift (~> 4.0)
+  - SwiftMessages (~> 6.0)
+  - SwiftRichString
+  - SwiftyJSON
+  - TagListView (~> 1.0)
+  - TPKeyboardAvoiding
+  - TTTAttributedLabel
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - BottomPopup
+    - CHIPageControl
+    - Crashlytics
+    - CryptoSwift
+    - DAKeychain
+    - ESTabBarController-swift
+    - Fabric
+    - Haptica
+    - Hero
+    - InitialsImageView
+    - Kingfisher
+    - LNPopupController
+    - Localize-Swift
+    - lottie-ios
+    - Movin
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - PromiseKit
+    - PureLayout
+    - Signals
+    - SkyFloatingLabelTextField
+    - SwifterSwift
+    - SwiftMessages
+    - SwiftRichString
+    - SwiftyJSON
+    - TagListView
+    - TPKeyboardAvoiding
+    - TTTAttributedLabel
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  BottomPopup: 1d5649a3b29396238f0e8f3c82075a7bfcf37ba7
+  CHIPageControl: a787bf7205c9b7e7fbfc412be36c5e8636b68f86
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  CryptoSwift: 1283821600233bdbeb96d7b389c3288c3bf77211
+  DAKeychain: d71c09726d62468f6cf35f512b6c12b322872cf2
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  Haptica: dc206651beeca25ab4744c633fbf0ae4d1e86baf
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  InitialsImageView: 7a416d36fc6df5434198664db28a3ffb0228426d
+  Kingfisher: f33a848445e33c543620812158dc5d47f6bf90df
+  LNPopupController: e4b5e6a709d4e34c1dae1356ce47004903254a98
+  Localize-Swift: 4bed4f0ccac8be2ec3517ee359da80ba2adb0fae
+  lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
+  Movin: 02a488d93913e46de77774d6a2cc2fa0eec83760
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  PureLayout: 9b4ad47b2f0388c84ff534af23d96e720c1b875a
+  Signals: f8e5c979e93c35273f8dfe55ee7f47213d3e8fe8
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
+  SwiftMessages: 8b3cc68dba2f1c91aac1a74c90b10287aac35371
+  SwiftRichString: 9a6a70b4fe2cf428e38348b5ada5400da74621fd
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TagListView: 987b0bdbb16cd9d9e7c0e2ec32aff37ecba8b173
+  TPKeyboardAvoiding: 6dd3fe3268b8f2627beb7ff3d82a3cacbdf66a36
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: 7b08a15e81dd52642b936267bf7a164f47afcdef
+
+COCOAPODS: 1.8.4
