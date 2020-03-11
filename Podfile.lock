@@ -92,7 +92,7 @@ DEPENDENCIES:
   - Haptica
   - Hero
   - InitialsImageView
-  - Kingfisher
+  - Kingfisher (~> 5.0)
   - LNPopupController
   - Localize-Swift
   - lottie-ios
@@ -176,6 +176,6 @@ SPEC CHECKSUMS:
   TPKeyboardAvoiding: 6dd3fe3268b8f2627beb7ff3d82a3cacbdf66a36
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
 
-PODFILE CHECKSUM: 7b08a15e81dd52642b936267bf7a164f47afcdef
+PODFILE CHECKSUM: 250b492334bff37303b228e6c73e39503ffb48f2
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.8.4

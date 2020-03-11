@@ -9,7 +9,7 @@
 import TPKeyboardAvoiding
 import NVActivityIndicatorView
 import PureLayout
-import ESTabBarController_swift
+import SwifterSwift
 
 class View: UIView {
   
@@ -23,7 +23,7 @@ class View: UIView {
     
     return view
   }()
-
+  
   /// Used to cover bottom view when mini music player popup presented in  ViewController<V: View> classes
   let safeAreaBottomViewForMusicPlayer: UIView = {
     let view = UIView()
@@ -37,8 +37,8 @@ class View: UIView {
   //MARK: - Initialization
   override init(frame: CGRect) {
     super.init(frame: frame)
-
-self.backgroundColor = UIColor.systemBackground
+    
+    self.backgroundColor = UIColor.systemBackground
     setViews()
     layoutViews()
     setupLoadingView()
@@ -89,7 +89,7 @@ self.backgroundColor = UIColor.systemBackground
       let window = UIApplication.shared.keyWindow
       if let bottomPadding = window?.safeAreaInsets.bottom {
         addSubview(safeAreaBottomViewForMusicPlayer)
-
+        
         safeAreaBottomViewForMusicPlayer.autoPinEdge(.bottom, to: .bottom, of: self)
         safeAreaBottomViewForMusicPlayer.autoPinEdge(.left, to: .left, of: self)
         safeAreaBottomViewForMusicPlayer.autoPinEdge(.right, to: .right, of: self)

@@ -122,7 +122,7 @@ class ViewController<V: View>: UIViewController, NVActivityIndicatorViewable, UI
   
   @objc func showTabBar() {
     //Present Player Popup Bar from MainTabBar
-    AppNotification.shared.showPopupBar()
+    
     //Show Tab Bar
     if var tabFrame = self.tabBarController?.tabBar.frame {
       tabFrame.origin.y = self.customView.frame.size.height - tabFrame.size.height
