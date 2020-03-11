@@ -20,11 +20,11 @@ class WelcomeViewController: ViewController<WelcomeView> {
   }
   
   
-  func goToLogin() {
+  @objc func goToLogin() {
     
   }
   
-  func goToRegister() {
+  @objc func goToRegister() {
     
   }
   
