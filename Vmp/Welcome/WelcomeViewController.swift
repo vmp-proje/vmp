@@ -16,15 +16,18 @@ class WelcomeViewController: ViewController<WelcomeView> {
     super.viewDidLoad()
     
     customView.loginButton.addTarget(self, action: #selector(goToLogin), for: .touchUpInside)
-    customView.loginButton.addTarget(self, action: #selector(goToRegister), for: .touchUpInside)
+    customView.registerButton.addTarget(self, action: #selector(goToRegister), for: .touchUpInside)
   }
   
   
   @objc func goToLogin() {
-    
+    let loginVC = LoginViewController()
+    self.navigationController?.pushViewController(loginVC, animated: true)
   }
   
   @objc func goToRegister() {
+    let registerVC = RegisterViewController()
+    self.navigationController?.pushViewController(registerVC, animated: true)
     
   }
   

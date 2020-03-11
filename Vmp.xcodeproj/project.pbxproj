@@ -14,6 +14,8 @@
 		18126D9F2417D564007EA278 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18126D9E2417D564007EA278 /* View.swift */; };
 		18670D7324192E7D003371C9 /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18670D7224192E7D003371C9 /* InputTextField.swift */; };
 		8508308C4A93B6462796E6FF /* Pods_Vmp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE278DF423E278369AD613FE /* Pods_Vmp.framework */; };
+		A519582A241959D100633E80 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195829241959D100633E80 /* ForgotPasswordViewController.swift */; };
+		A519582C24195A1E00633E80 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519582B24195A1E00633E80 /* ForgotPasswordView.swift */; };
 		A5BF42E82419016D00D549C0 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF42E72419016D00D549C0 /* MainTabBarController.swift */; };
 		A5BF42EA2419018300D549C0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF42E92419018300D549C0 /* WelcomeViewController.swift */; };
 		A5BF42EC2419018B00D549C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF42EB2419018B00D549C0 /* LoginViewController.swift */; };
@@ -38,6 +40,8 @@
 		18126D9E2417D564007EA278 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		18670D7224192E7D003371C9 /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
 		251CA2F0726A7C9B7920D5FA /* Pods-Vmp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vmp.debug.xcconfig"; path = "Target Support Files/Pods-Vmp/Pods-Vmp.debug.xcconfig"; sourceTree = "<group>"; };
+		A5195829241959D100633E80 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		A519582B24195A1E00633E80 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		A5BF42E72419016D00D549C0 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		A5BF42E92419018300D549C0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A5BF42EB2419018B00D549C0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 				A5BF42F1241901B600D549C0 /* LoginView.swift */,
 				A5BF42ED2419019500D549C0 /* RegisterViewController.swift */,
 				A5BF42F5241901C100D549C0 /* RegisterView.swift */,
+				A5195829241959D100633E80 /* ForgotPasswordViewController.swift */,
+				A519582B24195A1E00633E80 /* ForgotPasswordView.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -268,10 +274,12 @@
 				18670D7324192E7D003371C9 /* InputTextField.swift in Sources */,
 				A5BF43202419064300D549C0 /* Color.swift in Sources */,
 				A5BF431A2419030A00D549C0 /* AppFont.swift in Sources */,
+				A519582A241959D100633E80 /* ForgotPasswordViewController.swift in Sources */,
 				A5BF431C2419048C00D549C0 /* AppButton.swift in Sources */,
 				A5BF42E82419016D00D549C0 /* MainTabBarController.swift in Sources */,
 				A5BF42F2241901B600D549C0 /* LoginView.swift in Sources */,
 				A5BF431E241904EB00D549C0 /* Label.swift in Sources */,
+				A519582C24195A1E00633E80 /* ForgotPasswordView.swift in Sources */,
 				18126D9F2417D564007EA278 /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
