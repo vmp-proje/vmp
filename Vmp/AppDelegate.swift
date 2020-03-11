@@ -8,6 +8,8 @@
 
 import UIKit
 
+let screenSize: CGRect = UIScreen.main.bounds
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
   

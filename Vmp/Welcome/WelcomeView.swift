@@ -33,8 +33,8 @@ class WelcomeView: View {
   
   let privacyButton = Button(text: "Privacy Policy".localized(), font: AppFont.Regular.font(size: 13), textColor: UIColor.gray.withAlphaComponent(0.6), textAlignment: .right, backgroundColor: .clear, highlightedTextColor: UIColor.gray)
   
-  let welcomeLabel = Label(text: "Welcome.".localized(), font: AppFont.Bold.font(size: 37), textColor: .white, textAlignment: .left, numberOfLines: 1)
-  let infoLabel = Label(text: "You can watch & download all the youtube videos.".localized(), font: AppFont.Regular.font(size: 16), textColor: .white, textAlignment: .left, numberOfLines: 0)
+  let welcomeLabel = Label(text: "Welcome.".localized(), font: AppFont.Bold.font(size: 37), textColor: .white, textAlignment: .center, numberOfLines: 1)
+  let infoLabel = Label(text: "You can watch & download all the youtube videos.".localized(), font: AppFont.Regular.font(size: 16), textColor: .white, textAlignment: .center, numberOfLines: 0)
   
   let loginButton = Button(text: "Login".localized(), font: AppFont.Bold.font(size: 20), textColor: .white, textAlignment: .center, backgroundColor: UIColor.black.withAlphaComponent(0.5), highlightedTextColor: UIColor.lightGray)
   let registerButton = Button(text: "Register".localized(), font: AppFont.Bold.font(size: 20), textColor: .white, textAlignment: .center, backgroundColor: UIColor.black.withAlphaComponent(0.5), highlightedTextColor: UIColor.lightGray)
@@ -48,22 +48,24 @@ class WelcomeView: View {
     loadUI()
   }
   
-  override func layoutViews() {
-    super.layoutViews()
-    
-    loginButton.layer.cornerRadius = frame.height / 2
-  }
-  
   required init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
   
   func loadUI() {
     addSubview(loginButton)
-    loginButton.autoPinEdge(toSuperviewSafeArea: .bottom, withInset: 50)
+    loginButton.autoPinEdge(toSuperviewSafeArea: .bottom, withInset: 98)
     loginButton.autoPinEdge(.left, to: .left, of: self, withOffset: 30)
     loginButton.autoPinEdge(.right, to: .right, of: self, withOffset: -30)
     loginButton.autoSetDimension(.height, toSize: 46)
+    loginButton.layer.cornerRadius = 23
+    
+    addSubview(registerButton)
+    registerButton.autoPinEdge(toSuperviewSafeArea: .bottom, withInset: 38)
+    registerButton.autoPinEdge(.left, to: .left, of: self, withOffset: 30)
+    registerButton.autoPinEdge(.right, to: .right, of: self, withOffset: -30)
+    registerButton.autoSetDimension(.height, toSize: 46)
+    registerButton.layer.cornerRadius = 23
     
     addSubview(infoLabel)
     infoLabel.autoPinEdge(.bottom, to: .top, of: loginButton, withOffset: -36)

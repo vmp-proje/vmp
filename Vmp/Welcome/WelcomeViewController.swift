@@ -15,7 +15,8 @@ class WelcomeViewController: ViewController<WelcomeView> {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    //     customView.loginButton.addTarget(self, action: #selector(), for: .touchUpInside)
+    customView.loginButton.addTarget(self, action: #selector(goToLogin), for: .touchUpInside)
+    customView.loginButton.addTarget(self, action: #selector(goToRegister), for: .touchUpInside)
   }
   
   
