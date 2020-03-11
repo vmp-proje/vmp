@@ -33,8 +33,8 @@ class WelcomeView: View {
   
   let privacyButton = Button(text: "Privacy Policy".localized(), font: AppFont.Regular.font(size: 13), textColor: UIColor.gray.withAlphaComponent(0.6), textAlignment: .right, backgroundColor: .clear, highlightedTextColor: UIColor.gray)
   
-  let welcomeLabel = Label(text: "Welcome.".localized(), font: AppFont.Bold.font(size: 37), textColor: .white, textAlignment: .center, numberOfLines: 1)
-  let infoLabel = Label(text: "You can watch & download all the youtube videos.".localized(), font: AppFont.Regular.font(size: 16), textColor: .white, textAlignment: .center, numberOfLines: 0)
+  let welcomeLabel = Label(text: "Welcome".localized(), font: AppFont.Bold.font(size: 37), textColor: .white, textAlignment: .center, numberOfLines: 1)
+  let infoLabel = Label(text: "You can watch & download all the youtube videos. Please login or register to keep going.".localized(), font: AppFont.Regular.font(size: 16), textColor: .white, textAlignment: .center, numberOfLines: 0)
   
   let loginButton = Button(text: "Login".localized(), font: AppFont.Bold.font(size: 20), textColor: .white, textAlignment: .center, backgroundColor: UIColor.black.withAlphaComponent(0.5), highlightedTextColor: UIColor.lightGray)
   let registerButton = Button(text: "Register".localized(), font: AppFont.Bold.font(size: 20), textColor: .white, textAlignment: .center, backgroundColor: UIColor.black.withAlphaComponent(0.5), highlightedTextColor: UIColor.lightGray)
