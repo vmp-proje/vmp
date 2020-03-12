@@ -53,10 +53,6 @@ class ForgotPaswordView: View {
   }
   
   //MARK: - UI
-  override func setViews() {
-    
-  }
-  
   func layoutEmailView() {
     addSubview(emailTextField)
     addSubview(infoLabel)
