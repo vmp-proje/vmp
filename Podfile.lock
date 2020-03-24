@@ -40,7 +40,7 @@ PODS:
   - NVActivityIndicatorView (4.8.0):
     - NVActivityIndicatorView/Presenter (= 4.8.0)
   - NVActivityIndicatorView/Presenter (4.8.0)
-  - ObjectMapper (3.5.1)
+  - ObjectMapper (3.5.2)
   - PromiseKit (6.13.1):
     - PromiseKit/CorePromise (= 6.13.1)
     - PromiseKit/Foundation (= 6.13.1)
@@ -163,7 +163,7 @@ SPEC CHECKSUMS:
   lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
   Movin: 02a488d93913e46de77774d6a2cc2fa0eec83760
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
-  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
   PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
   PureLayout: 9b4ad47b2f0388c84ff534af23d96e720c1b875a
   Signals: f8e5c979e93c35273f8dfe55ee7f47213d3e8fe8
@@ -178,4 +178,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 250b492334bff37303b228e6c73e39503ffb48f2
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1
