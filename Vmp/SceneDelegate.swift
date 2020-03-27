@@ -26,6 +26,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     let welcomeVC = WelcomeViewController()
     window?.rootViewController = UINavigationController(rootViewController: welcomeVC)
     window?.makeKeyAndVisible()
+    
+    
+    NotificationCenter.default.addObserver(self, selector: #selector(reloadApp), name: NSNotification.Name.init("reloadApp"), object: nil)
+  }
+  
+  @objc func reloadApp() {
+    let mainTabVC = MainTabBarController()
+    window?.rootViewController = UINavigationController(rootViewController: mainTabVC)
+    window?.makeKeyAndVisible()
   }
 
   func sceneDidDisconnect(_ scene: UIScene) {
