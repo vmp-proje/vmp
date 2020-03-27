@@ -25,6 +25,12 @@ class WelcomeViewController: ViewController<WelcomeView> {
     
     customView.loginButton.addTarget(self, action: #selector(goToLogin), for: .touchUpInside)
     customView.registerButton.addTarget(self, action: #selector(goToRegister), for: .touchUpInside)
+<<<<<<< HEAD
+=======
+    
+    let settingsVC = SettingsViewController()
+    self.navigationController?.pushViewController(settingsVC, animated: true)
+>>>>>>> parent of 7b183af... removed files
   }
   
   
