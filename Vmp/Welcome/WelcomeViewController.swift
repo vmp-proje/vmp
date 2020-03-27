@@ -12,14 +12,6 @@ import UIKit
 class WelcomeViewController: ViewController<WelcomeView> {
   
   
-  
-  //MARK: - View Appearance
-  override func viewWillAppear(_ animated: Bool) {
-    super.viewWillAppear(animated)
-    
-    self.navigationController?.setNavigationBarHidden(true, animated: true)
-  }
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     

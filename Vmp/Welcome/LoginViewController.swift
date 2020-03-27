@@ -26,12 +26,6 @@ class LoginViewController: ViewController<LoginView> {
   
   
   //MARK: - View Appearance
-  override func viewWillAppear(_ animated: Bool) {
-    super.viewWillAppear(animated)
-    
-//    self.navigationController?.setNavigationBarHidden(true, animated: true)
-  }
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -103,15 +97,13 @@ class LoginViewController: ViewController<LoginView> {
   
   //MARK: - Backend
   private func login(email: String, password: String) {
-//    startLoadingAnimation()
-    
+    startLoadingAnimation()
 //    UserManager.shared.login(email, password: password).done { (user) in
 //      self.stopLoadingAnimation()
 //
 //      self.showMainTabBarVC()
 //      AppNotification.shared.userLoggedIn()
 //
-    NotificationCenter.default.post(name: NSNotification.Name.init("reloadApp"), object: nil)
 //    }.catch({ (error) in
 //      self.stopLoadingAnimation()
 //      Debugger.logError(message: "\(self.className) login failed", data: error)
@@ -143,6 +135,7 @@ class LoginViewController: ViewController<LoginView> {
     backButton.addTarget(self, action: #selector(dismissVC), for: .touchUpInside)
     let backBarButton = UIBarButtonItem(customView: backButton)
     navigationItem.leftBarButtonItem = backBarButton
+    
     
     navigationItem.title = "Login".localized()
     self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : Color.appWhite, NSAttributedString.Key.font : AppFont.Bold.font(size: 18)]

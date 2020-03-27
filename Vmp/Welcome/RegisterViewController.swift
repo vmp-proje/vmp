@@ -12,10 +12,11 @@ import UIKit
 
 class RegisterViewController: ViewController<RegisterView>, UIImagePickerControllerDelegate {
   
-  
-  //MARK: - Constants
   let className = "SignUpViewController.swift"
+<<<<<<< HEAD
   
+=======
+>>>>>>> parent of 55780ea... bug fix for maintabbar
   //MARK: - Variables
   var email: String? {
     return customView.emailTextField.textLabel.text
@@ -30,13 +31,7 @@ class RegisterViewController: ViewController<RegisterView>, UIImagePickerControl
     return customView.lastNameTextField.textLabel.text
   }
   
-  
   //MARK: - View Appearance
-  override func viewWillAppear(_ animated: Bool) {
-    super.viewWillAppear(animated)
-    
-    self.navigationController?.setNavigationBarHidden(true, animated: true)
-  }
   override func viewDidLoad() {
     super.viewDidLoad()
     

@@ -21,14 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //    let welcomeVC = WelcomeViewController()
 //    let nav = UINavigationController(rootViewController: welcomeVC)
 //    window?.rootViewController = UINavigationController(rootViewController: welcomeVC)
-//    NotificationCenter.default.addObserver(self, selector: #selector(reloadApp), name: NSNotification.Name.init("reloadApp"), object: nil)
     
     return true
   }
-  
-//  @objc func reloadApp() {
-//
-//  }
   
   // MARK: UISceneSession Lifecycle
   func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

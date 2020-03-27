@@ -20,7 +20,10 @@ class LoginView: View {
     button.setTitle("Log In".localized(), for: .normal)
     button.titleLabel?.font = AppFont.Regular.font(size: 16)
     button.layer.masksToBounds = true
+<<<<<<< HEAD
     button.backgroundColor = Color.collectionViewCellBackground
+=======
+>>>>>>> parent of 55780ea... bug fix for maintabbar
     
     return button
   }()
