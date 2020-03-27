@@ -16,7 +16,6 @@ class RegisterViewController: ViewController<RegisterView>, UIImagePickerControl
   //MARK: - Constants
   let className = "SignUpViewController.swift"
   
-  
   //MARK: - Variables
   var email: String? {
     return customView.emailTextField.textLabel.text
