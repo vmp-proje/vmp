@@ -41,6 +41,8 @@ class RegisterView: View {
     let button = UIButton()
     button.setTitle("Get Started".localized(), for: .normal)
     button.titleLabel?.font = AppFont.Regular.font(size: 16)
+    button.layer.masksToBounds = true
+    button.backgroundColor = Color.collectionViewCellBackground
     
     return button
   }()
@@ -137,6 +139,7 @@ class RegisterView: View {
     signUpButton.anchorCenterXToSuperview()
     signUpButton.autoSetDimension(.width, toSize: 150)
     signUpButton.autoSetDimension(.height, toSize: 60)
+    signUpButton.layer.cornerRadius = 29
     
     privacyLabel.autoPinEdge(.top, to: .bottom, of: signUpButton, withOffset: 20)
     privacyLabel.autoPinEdge(.left, to: .left, of: self, withOffset: 24)

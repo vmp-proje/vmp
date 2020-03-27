@@ -81,7 +81,7 @@ class MainTabBarController: ESTabBarController, UITabBarControllerDelegate {
 
     let contentView = IrregularityContentView()
     contentView.insets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-//    contentView.imageView.layer.cornerRadius = 35
+    contentView.imageView.layer.cornerRadius = 35
     contentView.imageView.layer.borderWidth = 3
     contentView.imageView.layer.borderColor = UIColor.init(red: 20/255.0, green: 24/255.0, blue: 41/255.0, alpha: 1.0).cgColor
     contentView.imageView.backgroundColor = UIColor.init(red: 7/255.0, green: 11/255.0, blue: 29/255.0, alpha: 1.0)
