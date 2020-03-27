@@ -16,6 +16,7 @@ class RegisterViewController: ViewController<RegisterView>, UIImagePickerControl
   //MARK: - Constants
   let className = "SignUpViewController.swift"
   
+  
   //MARK: - Variables
   var email: String? {
     return customView.emailTextField.textLabel.text
@@ -49,6 +50,7 @@ class RegisterViewController: ViewController<RegisterView>, UIImagePickerControl
     self.customView.privacyLabel.addGestureRecognizer(termLabelTap)
     customView.addPhotoTextButton.addTarget(self, action: #selector(tapPhoto), for: .touchUpInside)
     customView.addPhotoButton.addTarget(self, action: #selector(tapPhoto), for: .touchUpInside)
+    self.customView.signUpButton.addTarget(self, action: #selector(signUpButtonTapped), for: .touchUpInside)
   }
   
   
@@ -139,6 +141,9 @@ class RegisterViewController: ViewController<RegisterView>, UIImagePickerControl
   
   //MARK: - Backend
   func register() {
+    //FIXME: - dummy
+    NotificationCenter.default.post(name: NSNotification.Name.init("reloadApp"), object: nil)
+    
 //    startLoadingAnimation()
 //    UserManager.shared.signUp(self.firstName!, lastName: self.lastName!, email: self.email!, password: self.password!, image: self.profileImage ).done { (user) in
 //
