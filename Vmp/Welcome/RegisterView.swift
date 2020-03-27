@@ -167,7 +167,6 @@ class RoundedIconButton: UIButton {
     translatesAutoresizingMaskIntoConstraints = false
     layer.masksToBounds = true
     tintColor = Color.appWhite
-    //backgroundColor = Color.appWhite.withAlphaComponent(0.2)
     backgroundColor = Color.collectionViewCellBackground
   }
   

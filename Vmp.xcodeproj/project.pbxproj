@@ -13,11 +13,16 @@
 		18126D9D2417D4E1007EA278 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18126D9C2417D4E1007EA278 /* ViewController.swift */; };
 		18126D9F2417D564007EA278 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18126D9E2417D564007EA278 /* View.swift */; };
 		18670D7324192E7D003371C9 /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18670D7224192E7D003371C9 /* InputTextField.swift */; };
-		18776C39242A545C007E2615 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18776C38242A545C007E2615 /* TestViewController.swift */; };
+		18776C39242A545C007E2615 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18776C38242A545C007E2615 /* ProfileViewController.swift */; };
 		18776C3B242A7039007E2615 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18776C3A242A7038007E2615 /* ProfileView.swift */; };
 		8508308C4A93B6462796E6FF /* Pods_Vmp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE278DF423E278369AD613FE /* Pods_Vmp.framework */; };
 		A519582A241959D100633E80 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195829241959D100633E80 /* ForgotPasswordViewController.swift */; };
 		A519582C24195A1E00633E80 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519582B24195A1E00633E80 /* ForgotPasswordView.swift */; };
+		A595531F242D7B8C00369D59 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A595531E242D7B8C00369D59 /* HomeViewController.swift */; };
+		A5955321242D7B9000369D59 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5955320242D7B9000369D59 /* HomeView.swift */; };
+		A5955323242D7C0700369D59 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5955322242D7C0700369D59 /* MusicView.swift */; };
+		A5955325242D7C4C00369D59 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5955324242D7C4C00369D59 /* MusicViewController.swift */; };
+		A595532B242D7E5E00369D59 /* IrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A595532A242D7E5E00369D59 /* IrregularityContentView.swift */; };
 		A5BF42E82419016D00D549C0 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF42E72419016D00D549C0 /* MainTabBarController.swift */; };
 		A5BF42EA2419018300D549C0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF42E92419018300D549C0 /* WelcomeViewController.swift */; };
 		A5BF42EC2419018B00D549C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF42EB2419018B00D549C0 /* LoginViewController.swift */; };
@@ -41,11 +46,16 @@
 		18126D9C2417D4E1007EA278 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18126D9E2417D564007EA278 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		18670D7224192E7D003371C9 /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
-		18776C38242A545C007E2615 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		18776C38242A545C007E2615 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		18776C3A242A7038007E2615 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		251CA2F0726A7C9B7920D5FA /* Pods-Vmp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vmp.debug.xcconfig"; path = "Target Support Files/Pods-Vmp/Pods-Vmp.debug.xcconfig"; sourceTree = "<group>"; };
 		A5195829241959D100633E80 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		A519582B24195A1E00633E80 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		A595531E242D7B8C00369D59 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A5955320242D7B9000369D59 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A5955322242D7C0700369D59 /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		A5955324242D7C4C00369D59 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		A595532A242D7E5E00369D59 /* IrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IrregularityContentView.swift; sourceTree = "<group>"; };
 		A5BF42E72419016D00D549C0 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		A5BF42E92419018300D549C0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A5BF42EB2419018B00D549C0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -98,8 +108,8 @@
 				18090E7C241458DF006FC496 /* AppDelegate.swift */,
 				A5BF43172419022B00D549C0 /* SceneDelegate.swift */,
 				A5BF42E72419016D00D549C0 /* MainTabBarController.swift */,
-				18776C38242A545C007E2615 /* TestViewController.swift */,
-				18776C3A242A7038007E2615 /* ProfileView.swift */,
+				A595532A242D7E5E00369D59 /* IrregularityContentView.swift */,
+				A5955326242D7C7600369D59 /* Tabs */,
 				A5BF42F0241901A700D549C0 /* Welcome */,
 				A5BF42EF2419019E00D549C0 /* Class */,
 				18090E85241458E6006FC496 /* Assets.xcassets */,
@@ -124,6 +134,43 @@
 				EE278DF423E278369AD613FE /* Pods_Vmp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5955326242D7C7600369D59 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				A5955329242D7C9100369D59 /* Profile */,
+				A5955327242D7C8500369D59 /* Home */,
+				A5955328242D7C8C00369D59 /* Music */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		A5955327242D7C8500369D59 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A595531E242D7B8C00369D59 /* HomeViewController.swift */,
+				A5955320242D7B9000369D59 /* HomeView.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A5955328242D7C8C00369D59 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				A5955324242D7C4C00369D59 /* MusicViewController.swift */,
+				A5955322242D7C0700369D59 /* MusicView.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		A5955329242D7C9100369D59 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				18776C38242A545C007E2615 /* ProfileViewController.swift */,
+				18776C3A242A7038007E2615 /* ProfileView.swift */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 		A5BF42EF2419019E00D549C0 /* Class */ = {
@@ -270,15 +317,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5BF42EC2419018B00D549C0 /* LoginViewController.swift in Sources */,
-				18776C39242A545C007E2615 /* TestViewController.swift in Sources */,
+				18776C39242A545C007E2615 /* ProfileViewController.swift in Sources */,
 				A5BF42F6241901C100D549C0 /* RegisterView.swift in Sources */,
+				A595532B242D7E5E00369D59 /* IrregularityContentView.swift in Sources */,
 				18126D9D2417D4E1007EA278 /* ViewController.swift in Sources */,
 				A5BF42EE2419019500D549C0 /* RegisterViewController.swift in Sources */,
+				A5955321242D7B9000369D59 /* HomeView.swift in Sources */,
+				A595531F242D7B8C00369D59 /* HomeViewController.swift in Sources */,
 				A5BF42EA2419018300D549C0 /* WelcomeViewController.swift in Sources */,
 				A5BF42F4241901BB00D549C0 /* WelcomeView.swift in Sources */,
 				18090E7D241458DF006FC496 /* AppDelegate.swift in Sources */,
 				A5BF43182419022B00D549C0 /* SceneDelegate.swift in Sources */,
 				18670D7324192E7D003371C9 /* InputTextField.swift in Sources */,
+				A5955325242D7C4C00369D59 /* MusicViewController.swift in Sources */,
 				A5BF43202419064300D549C0 /* Color.swift in Sources */,
 				A5BF431A2419030A00D549C0 /* AppFont.swift in Sources */,
 				18776C3B242A7039007E2615 /* ProfileView.swift in Sources */,
@@ -289,6 +340,7 @@
 				A5BF431E241904EB00D549C0 /* Label.swift in Sources */,
 				A519582C24195A1E00633E80 /* ForgotPasswordView.swift in Sources */,
 				18126D9F2417D564007EA278 /* View.swift in Sources */,
+				A5955323242D7C0700369D59 /* MusicView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -112,4 +112,13 @@ extension UIColor {
   @nonobjc class var appLightBackground: UIColor {
     return UIColor(hexString: "#FFFFFF")!
   }
+  
+  @nonobjc class var appBlue: UIColor {
+    return UIColor(hexString: "#298FFF")!
+  }
+  
+  @nonobjc class var darkTabBar: UIColor {
+    return UIColor(hexString: "#1F1C00")!
+  }
+  
 }

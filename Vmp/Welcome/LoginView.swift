@@ -20,6 +20,8 @@ class LoginView: View {
     button.setTitle("Log In".localized(), for: .normal)
     button.titleLabel?.font = AppFont.Regular.font(size: 16)
     button.layer.masksToBounds = true
+//    button.backgroundColor = Color.reverseAppBackground.withAlphaComponent(0.75
+    button.backgroundColor = Color.collectionViewCellBackground
     
     return button
   }()
